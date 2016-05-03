@@ -23,7 +23,6 @@ require(['app'], function(){
 });
 
 define(['jquery'], function($) {
-
 	$('.message a').click(function() {
 		$('form').animate({height : "toggle", opacity : "toggle"}, "slow");
 	});
